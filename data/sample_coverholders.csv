@@ -1,0 +1,21 @@
+coverholder_id,coverholder_name,coverholder_type,location,risk_rating,annual_premium,join_date
+CH001,United Brokers Inc,Broker,New York,Medium,450000,2022-01-15
+CH002,Global Insurance Partners,Broker,London,High,620000,2021-06-20
+CH003,Atlantic Risk Management,Broker,Toronto,Medium,380000,2022-09-10
+CH004,Premier Underwriting,Manager,Chicago,Low,290000,2023-02-15
+CH005,Continental Brokers,Broker,Frankfurt,High,580000,2021-03-25
+CH006,Pacific Insurance Group,Broker,Sydney,Medium,420000,2022-07-30
+CH007,Nordic Risk Partners,Manager,Stockholm,Low,310000,2023-01-08
+CH008,Asian Underwriters,Broker,Singapore,High,650000,2020-11-12
+CH009,European Risk Advisors,Broker,Amsterdam,Medium,390000,2022-04-18
+CH010,North American Partners,Broker,Mexico City,Medium,410000,2022-08-22
+CH011,Middle East Insurance,Manager,Dubai,High,520000,2021-12-01
+CH012,Caribbean Risk Group,Broker,Barbados,Low,270000,2023-05-14
+CH013,South American Brokers,Broker,São Paulo,Medium,360000,2022-10-09
+CH014,African Insurance Partners,Broker,Lagos,Low,320000,2023-03-20
+CH015,Central Asian Underwriters,Manager,Almaty,Low,280000,2023-07-15
+CH016,Eastern European Risk,Broker,Warsaw,Medium,400000,2022-02-28
+CH017,Oceania Insurance Group,Broker,Auckland,Medium,430000,2022-06-12
+CH018,South Asian Advisors,Manager,Mumbai,High,540000,2021-09-05
+CH019,Southeast Asian Partners,Broker,Bangkok,Medium,370000,2023-01-18
+CH020,Western Hemisphere Brokers,Broker,Miami,High,600000,2021-04-10
