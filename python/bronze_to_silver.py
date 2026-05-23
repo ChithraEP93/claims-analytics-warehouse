@@ -26,7 +26,6 @@ def clean_claims():
     print(df.head())
     print(df["claim_amount"].sum())
 
-#payments file
 
 def clean_payments():
     #Read payments data
@@ -154,6 +153,7 @@ def clean_policy():
     print("Policy file cleaned successfully")
 
 def clean_tpas():
+
     #Read tpas data
     df=pd.read_csv("data/sample_tpas.csv")
 
