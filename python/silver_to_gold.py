@@ -34,5 +34,25 @@ def generate_claims_kpis():
     })
 #Save gold layer
     kpi_df.to_csv("data/gold/claims_kpis.csv",index=False)
+    print("Claims by kpi created")
+
+
+def generate_claims_by_status():
+
+    #Read Cleaned claims
+    df=pd.read_csv(
+         "data/silver/cleaned_claims.csv"
+    )
+    #Group by claim status
+    status_df = (
+        df.groupby("claim_status")
+        ["claim_amount"]
+        .agg(["count","sum","mean"])
+        .reset_index()
+    )
+    #save gold file
+    df.to_csv("data/gold/claims_claims_by_status",index=False)
+    print("Claims by status created")
 
 generate_claims_kpis()
+generate_claims_by_status()
