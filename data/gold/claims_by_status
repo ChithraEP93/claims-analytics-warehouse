@@ -1,0 +1,5 @@
+claim_status,total_claims,total_claim_amount,average_claim_amount
+Open,28,3042000,108642.85714285714
+Pending,12,1153000,96083.33333333333
+Settled,50,4268000,85360.0
+Under Review,10,1083000,108300.0

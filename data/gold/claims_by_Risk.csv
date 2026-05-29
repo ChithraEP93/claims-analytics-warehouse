@@ -1,0 +1,4 @@
+risk_rating,total_claims,total_claim_amount,average_claim_amount
+High,30,3088000,102933.33333333333
+Low,20,1440000,72000.0
+Medium,50,5018000,100360.0
