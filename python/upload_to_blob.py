@@ -4,7 +4,7 @@ import os
 
 def upload_files():
     #Azure connection string
-    connection_string="my connection"
+    connection_string="Connection String"
 
     #Connect to Azure Blob
     blob_service_client = BlobServiceClient.from_connection_string(connection_string)

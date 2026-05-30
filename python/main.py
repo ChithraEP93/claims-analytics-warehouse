@@ -15,6 +15,9 @@ clean_tpas()
 # Silver → Gold
 generate_claims_kpis()
 generate_claims_by_status()
+generate_claims_by_risk_rating()
+generate_claims_by_tpa()
+generate_claims_by_claim_type()
 
 # Upload to Azure
 upload_files()

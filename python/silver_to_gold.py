@@ -54,7 +54,7 @@ def generate_claims_by_status():
     "total_claim_amount",
     "average_claim_amount"]
     #save gold file
-    status_df.to_csv("data/gold/claims_by_status",index=False)
+    status_df.to_csv("data/gold/claims_by_status.csv",index=False)
     print("Claims by status created")
 
 
@@ -83,6 +83,47 @@ def generate_claims_by_risk_rating():
     risk_df.to_csv("data/gold/claims_by_Risk.csv",index=False)
     print("Claims by risk rating created")
 
+def generate_claims_by_tpa():
+
+    #Read TPA and claims files
+    tpa_df=pd.read_csv("data/silver/cleaned_tpas.csv") 
+    claims_df=pd.read_csv("data/silver/cleaned_claims.csv")
+
+    #Merge files
+    merge_df=tpa_df.merge(claims_df,on="tpa_id")
+
+    #GroupBy
+    claims_by_tpa_df=(merge_df.groupby("tpa_name")["claim_amount"].agg(["count","sum","mean"])
+        .reset_index())
+    claims_by_tpa_df.columns = ["tpa_name",
+    "total_claims",
+    "total_claim_amount",
+    "average_claim_amount"]
+    
+    #write file
+    claims_by_tpa_df.to_csv("data/gold/claims_by_TPA.csv",index=False)
+    print("Claims by TPA created")
+
+def generate_claims_by_claim_type():
+    #Read file
+    df=pd.read_csv("data/silver/cleaned_claims.csv")
+
+    groupby_df=(df.groupby("claim_type")["claim_amount"].agg(["count","sum","mean"])
+        .reset_index())
+    
+    #updated header
+    groupby_df.columns=["claim_type",
+    "total_claims",
+    "total_claim_amount",
+    "average_claim_amount"]
+
+    #write file
+    groupby_df.to_csv("data/gold/claims_by_claim_type.csv",index=False)
+    print("Claims by Claims Type created")
+
+
 generate_claims_kpis()
 generate_claims_by_status()
 generate_claims_by_risk_rating()
+generate_claims_by_tpa()
+generate_claims_by_claim_type()
