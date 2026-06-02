@@ -52,3 +52,7 @@ Power BI Dashboard
 - Azure SQL Database integration
 - Automated scheduling and monitoring
 - CI/CD deployment pipeline
+
+  ## Power BI Dashboard
+
+![Claims Dashboard](images/dashboard.png)
