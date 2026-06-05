@@ -27,8 +27,20 @@ Power BI Dashboard
 - Python
 - Pandas
 - Azure Blob Storage
+- Azure Data Factory
 - Power BI
 - Git & GitHub
+## Azure Data Factory Features
+--Parameterized datasets
+--Dynamic file processing
+--Get Metadata activity
+--ForEach activity
+--If Condition activity
+--Copy Data activity
+--Pipeline variables for audit tracking
+--Schedule triggers
+--Pipeline monitoring
+--Error investigation and troubleshooting
 
 ## Gold Layer Outputs
 
@@ -48,10 +60,10 @@ Power BI Dashboard
 
 ## Future Enhancements
 
-- Azure Data Factory orchestration
-- Azure SQL Database integration
-- Automated scheduling and monitoring
-- CI/CD deployment pipeline
+--Azure SQL Database integration
+--Automated data quality checks
+--CI/CD deployment pipeline
+--Power BI Service deployment
 
   ## Power BI Dashboard
 
