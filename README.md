@@ -20,6 +20,10 @@ Gold Layer
         ↓
 Azure Blob Storage
         ↓
+Azure Data Factory
+        ↓
+Azure SQL Database
+        ↓
 Power BI Dashboard
 
 ## Technologies Used
@@ -28,6 +32,8 @@ Power BI Dashboard
 - Pandas
 - Azure Blob Storage
 - Azure Data Factory
+- Azure SQL Database
+- SQL
 - Power BI
 - Git & GitHub
 ## Azure Data Factory Features
@@ -41,7 +47,14 @@ Power BI Dashboard
 --Schedule triggers
 --Pipeline monitoring
 --Error investigation and troubleshooting
-
+--Upsert loading into Azure SQL Database
+## Azure SQL Database Features 
+--Relational data model
+--Primary Keys
+--Foreign Keys
+--Upsert data loading
+--SQL validation queries
+--Power BI integration
 ## Gold Layer Outputs
 
 - claims_kpis.csv
@@ -64,6 +77,7 @@ Power BI Dashboard
 --Automated data quality checks
 --CI/CD deployment pipeline
 --Power BI Service deployment
+--Azure Monitor and alerting
 
   ## Power BI Dashboard
 
