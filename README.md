@@ -1,6 +1,6 @@
 # claims-analytics-warehouse
 
-End-to-end insurance claims analytics platform built using Python, Azure Blob Storage, Power BI, and GitHub.
+End-to-end insurance claims analytics platform built using Python, Azure Blob Storage, Azure Data Factory, Azure SQL Database, Power BI, and GitHub.
 
 The project follows a Bronze-Silver-Gold architecture to transform raw insurance datasets into business-ready analytics outputs and interactive dashboards.
 
@@ -36,7 +36,9 @@ Power BI Dashboard
 - SQL
 - Power BI
 - Git & GitHub
+  
 ## Azure Data Factory Features
+
 --Parameterized datasets
 --Dynamic file processing
 --Get Metadata activity
@@ -48,13 +50,16 @@ Power BI Dashboard
 --Pipeline monitoring
 --Error investigation and troubleshooting
 --Upsert loading into Azure SQL Database
+
 ## Azure SQL Database Features 
+
 --Relational data model
 --Primary Keys
 --Foreign Keys
 --Upsert data loading
 --SQL validation queries
 --Power BI integration
+
 ## Gold Layer Outputs
 
 - claims_kpis.csv
@@ -73,11 +78,11 @@ Power BI Dashboard
 
 ## Future Enhancements
 
---Azure SQL Database integration
---Automated data quality checks
---CI/CD deployment pipeline
---Power BI Service deployment
---Azure Monitor and alerting
+-- Azure Databricks integration
+-- Automated data quality checks
+-- CI/CD deployment pipeline
+-- Power BI Service deployment
+-- Azure Monitor and alerting
 
   ## Power BI Dashboard
 
